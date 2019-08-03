@@ -1,0 +1,84 @@
+html {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    color: #ffffff;
+    line-height: 1.65;
+
+}
+
+  font{
+      color:white;
+  }
+
+  .avatar {
+    border-radius: 50%;
+  }
+
+  header {
+    /* Put a 15-pixel margin at the bottom of the heading. */
+    margin-bottom: 15px;
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: center;
+    background-color:#324072;
+  }
+  
+  body{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: #1f1f1f;
+ }
+
+  a{
+      color:red;
+  }
+
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+
+  h2 {
+    /* Put a 15-pixel margin at the top of all h2 headings. */
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .bubble{
+    border-radius: 2%;
+    background-color:#616161;
+  }
+ 
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+
+    
