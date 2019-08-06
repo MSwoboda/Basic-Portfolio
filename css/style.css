@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 html {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     -ms-text-size-adjust: 100%; /* 2 */
@@ -18,8 +23,10 @@ html {
   header {
     /* Put a 15-pixel margin at the bottom of the heading. */
     margin-bottom: 15px;
+    padding: 20px 0;
+    margin: 0;
     /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: center;
+    text-align: left;
     background-color:#324072;
   }
   
@@ -28,11 +35,11 @@ html {
     margin: 0;
     font-size: 18px;
     line-height: 150%;
-    background-color: #1f1f1f;
+    background-color: #a71010;
  }
 
   a{
-      color:red;
+      color:#324072;
   }
 
   #main-bio,
@@ -80,5 +87,37 @@ html {
   width: 30%;
 }
 
+#fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+  background: #eee;
+}
 
-    
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#relative {
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #eee;
+}
+
+#absolute {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  background: #999;
+}
