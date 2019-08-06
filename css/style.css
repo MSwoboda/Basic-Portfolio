@@ -22,8 +22,8 @@ html {
 
   header {
     /* Put a 15-pixel margin at the bottom of the heading. */
-    margin-bottom: 15px;
-    padding: 20px 0;
+    margin-bottom: 10px;
+    padding: 10px 0;
     margin: 0;
     /* Align the text to the center of its enclosing element (e.g. div). */
     text-align: left;
@@ -35,7 +35,7 @@ html {
     margin: 0;
     font-size: 18px;
     line-height: 150%;
-    background-color: #a71010;
+    background-color: #1f1f1f;
  }
 
   a{
@@ -87,37 +87,3 @@ html {
   width: 30%;
 }
 
-#fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 40px;
-  margin: 0;
-  text-align: center;
-  background: #eee;
-}
-
-.wrapper {
-  width: 600px;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-#relative {
-  position: relative;
-  height: 200px;
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-  background: #eee;
-}
-
-#absolute {
-  position: absolute;
-  right: -30px;
-  bottom: 0;
-  width: 250px;
-  padding: 20px;
-  text-align: center;
-  background: #999;
-}
